@@ -49,3 +49,20 @@ function check(obj) {
 }
 
 check(use);//complusory enter the object name which is use
+
+//doing using object
+
+check({
+    us: "lion",
+    price: 200
+}) //alternate way to pass the data or object
+
+// ----------------------------
+//doing using array
+const arr = [200, 300, 40]
+
+function ret(getarr) {
+    return getarr;
+}
+
+console.log(ret(arr));
